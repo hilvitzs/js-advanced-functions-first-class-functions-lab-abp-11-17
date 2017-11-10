@@ -1,16 +1,10 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = function(drivers) {
-  
-  return holderArray;
+  return drivers.slice(0, 2);
 }
 
 const returnLastTwoDrivers = function(drivers) {
-  let holderArray = [];
-
-  holderArray.push(drivers[drivers.length - 2])
-  holderArray.push(drivers[drivers.length - 1])
-
-  return holderArray;
+  return drivers.slice(-2)
 }
 
 const selectingDrivers = [
